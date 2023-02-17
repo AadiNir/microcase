@@ -4,7 +4,7 @@ export const navlinks = [
   {
     name: 'dashboard',
     imgUrl: payment,
-    link: '/',
+    link: '/Home',
   },
   {
     name: 'campaign',
@@ -15,7 +15,7 @@ export const navlinks = [
     name: 'payment',
     imgUrl: dashboard,
     link: '/',
-    disabled: true,
+  
   },
   
   {
