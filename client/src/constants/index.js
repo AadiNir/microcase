@@ -4,7 +4,7 @@ export const navlinks = [
   {
     name: 'dashboard',
     imgUrl: payment,
-    link: '/',
+    link: '/Home',
   },
   {
     name: 'campaign',
