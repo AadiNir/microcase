@@ -11,8 +11,42 @@
     #000000 87.01%
   );
 }
+body{
+  overflow-x: hidden;
+  background-color: #121212;
+}
 
 input[type="date"]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   filter: invert(0.8);
+}
+.button1{
+  position: relative;
+  left:1000px;
+  top: 20px;
+  border-radius: 25px;
+  
+
+}
+.nav1{
+  position: relative;
+  bottom:430px;
+  left:750px;
+
+
+}
+.view{
+  position: relative;
+  top:40px;
+}
+.view2{
+  position: relative;
+  top:40px;
+  right: 40px;
+  background: rgba( 199, 34, 209, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
