@@ -21,7 +21,7 @@ const Sidebar = () => {
   return (
     <div className="flex justify-between items-center flex-row sticky top-5 h-[93vh]">
     <div className='nav1'>
-      <div className="flex-1 flex flex-row justify-between items-center bg-[#1c1c24] rounded-[20px] w-[280px] py-4 mt-12 h-[100px]">
+      <div className="flex-1 flex flex-row justify-between items-center bg-[#1c1c24] rounded-[20px] w-[300px] py-4 mt-12 h-[100px]">
         <div className="flex flex-row justify-center items-center gap-3">
           {navlinks.map((link) => (
             <Icon 

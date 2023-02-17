@@ -91,7 +91,7 @@ const CampaignDetails = () => {
                     <p className="font-epilogue font-normal text-[16px] text-[#808191] leading-[26px] break-ll">{item.donation}</p>
                   </div>
                 )) : (
-                  <p className="font-epilogue font-normal text-[16px] text-[#808191] leading-[26px] text-justify">No donators yet. Be the first one!</p>
+                  <p className="font-epilogue font-normal text-[16px] text-[#808191] leading-[26px] text-justify">No Investors yet, be the first one to invest in this startup</p>
                 )}
               </div>
           </div>
@@ -102,12 +102,12 @@ const CampaignDetails = () => {
 
           <div className="mt-[20px] flex flex-col p-4 bg-[#1c1c24] rounded-[10px]">
             <p className="font-epilogue fount-medium text-[20px] leading-[30px] text-center text-[#808191]">
-              Number of shares
+               Invest in ths Startup
             </p>
             <div className="mt-[30px]">
               <input 
                 type="number"
-                placeholder="Share count"
+                placeholder="Investment Amount"
                 step="0.01"
                 className="w-full py-[10px] sm:px-[20px] px-[15px] outline-none border-[1px] border-[#3a3a43] bg-transparent font-epilogue text-white text-[18px] leading-[30px] placeholder:text-[#4b5264] rounded-[10px]"
                 value={amount}

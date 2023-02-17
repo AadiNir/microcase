@@ -4,7 +4,7 @@ import Testimonials from '../components/Testimonials';
 import Footer from '../components/Footer';
 function Home1(){
     return(
-        <div>
+        <div classname="view4">
             <Homepage/>
             <Testimonials/>
             <Footer/>
