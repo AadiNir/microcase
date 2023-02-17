@@ -15,7 +15,9 @@ const CreateCampaign = () => {
     name: '',
     title: '',
     description: '',
+    industry:'',
     target: '', 
+    liquidation: '',
     deadline: '',
     image: ''
   });
@@ -73,13 +75,21 @@ const CreateCampaign = () => {
             value={form.description}
             handleChange={(e) => handleFormFieldChange('description', e)}
           />
+
+        <FormField 
+            labelName="Industry"
+            placeholder="eg: Fintech, Healthcare, etc."
+            inputType="text"
+            value={form.industry}
+            handleChange={(e) => handleFormFieldChange('industry', e)}
+          />
           
           <FormField 
             labelName="Percentage Equity"
             placeholder="5% of company(integer value)"
             inputType="text"
             value={form.liquidation}
-            handleChange={(e) => handleFormFieldChange('target', e)}
+            handleChange={(e) => handleFormFieldChange('liquidation', e)}
           />
 
         <div className="flex flex-wrap gap-[40px]">

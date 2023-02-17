@@ -38,9 +38,9 @@ const CampaignDetails = () => {
   }
 
   return (
-    <div>
+    <div className="view3">
       {isLoading && <Loader />}
-
+      
       <div className="w-full flex md:flex-row flex-col mt-10 gap-[30px]">
         <div className="flex-1 flex-col">
           <img src={state.image} alt="campaign" className="w-full h-[410px] object-cover rounded-xl"/>

@@ -30,23 +30,29 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 .nav1{
   position: relative;
-  bottom:430px;
-  left:750px;
+  bottom:350px;
+  left:675px;
 
 
 }
 .view{
   position: relative;
-  top:40px;
+  top:100px;
 }
 .view2{
   position: relative;
   top:40px;
-  right: 40px;
+  right: 150px;
   background: rgba( 199, 34, 209, 0.15 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 4px );
 -webkit-backdrop-filter: blur( 4px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.view3{
+    position:relative;
+    right:150px;
+    top:40px;
 }
